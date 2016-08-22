@@ -1,0 +1,27 @@
+.app .notes .item{
+  border: 1px solid #c2c2c2;
+  margin: 15px;
+  padding: 15px;
+  position: relative;
+}
+.app .controls input{
+  margin: 15px;
+  padding: 15px;
+  line-height: 15px;
+  width: 400px;
+}
+
+.app .controls button{
+  height: 49px;
+  top: -1px;
+}
+
+
+.item .remove{
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
